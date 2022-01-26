@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon redesign</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./amazon-redesign.css">
+</head>
+
+<body>
+    <header>
+        <div class="main-container">
+            <div class="top-container">
+                <div class="logo">
+                    <div id="amazon">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="25" viewbox="2.167 .438 251.038 259.969" width="25"><g fill="none" fill-rule="evenodd"><path d="m221.503 210.324c-105.235 50.083-170.545 8.18-212.352-17.271-2.587-1.604-6.984.375-3.169 4.757 13.928 16.888 59.573 57.593 119.153 57.593 59.621 0 95.09-32.532 99.527-38.207 4.407-5.627 1.294-8.731-3.16-6.872zm29.555-16.322c-2.826-3.68-17.184-4.366-26.22-3.256-9.05 1.078-22.634 6.609-21.453 9.93.606 1.244 1.843.686 8.06.127 6.234-.622 23.698-2.826 27.337 1.931 3.656 4.79-5.57 27.608-7.255 31.288-1.628 3.68.622 4.629 3.68 2.178 3.016-2.45 8.476-8.795 12.14-17.774 3.639-9.028 5.858-21.622 3.71-24.424z" fill="#f90" fill-rule="nonzero"/><path d="m150.744 108.13c0 13.141.332 24.1-6.31 35.77-5.361 9.489-13.853 15.324-23.341 15.324-12.952 0-20.495-9.868-20.495-24.432 0-28.75 25.76-33.968 50.146-33.968zm34.015 82.216c-2.23 1.992-5.456 2.135-7.97.806-11.196-9.298-13.189-13.615-19.356-22.487-18.502 18.882-31.596 24.527-55.601 24.527-28.37 0-50.478-17.506-50.478-52.565 0-27.373 14.85-46.018 35.96-55.126 18.313-8.066 43.884-9.489 63.43-11.718v-4.365c0-8.018.616-17.506-4.08-24.432-4.128-6.215-12.003-8.777-18.93-8.777-12.856 0-24.337 6.594-27.136 20.257-.57 3.037-2.799 6.026-5.835 6.168l-32.735-3.51c-2.751-.618-5.787-2.847-5.028-7.07 7.543-39.66 43.36-51.616 75.43-51.616 16.415 0 37.858 4.365 50.81 16.795 16.415 15.323 14.849 35.77 14.849 58.02v52.565c0 15.798 6.547 22.724 12.714 31.264 2.182 3.036 2.657 6.69-.095 8.966-6.879 5.74-19.119 16.415-25.855 22.393l-.095-.095" fill="#000"/><path d="m221.503 210.324c-105.235 50.083-170.545 8.18-212.352-17.271-2.587-1.604-6.984.375-3.169 4.757 13.928 16.888 59.573 57.593 119.153 57.593 59.621 0 95.09-32.532 99.527-38.207 4.407-5.627 1.294-8.731-3.16-6.872zm29.555-16.322c-2.826-3.68-17.184-4.366-26.22-3.256-9.05 1.078-22.634 6.609-21.453 9.93.606 1.244 1.843.686 8.06.127 6.234-.622 23.698-2.826 27.337 1.931 3.656 4.79-5.57 27.608-7.255 31.288-1.628 3.68.622 4.629 3.68 2.178 3.016-2.45 8.476-8.795 12.14-17.774 3.639-9.028 5.858-21.622 3.71-24.424z" fill="#f90" fill-rule="nonzero"/><path d="m150.744 108.13c0 13.141.332 24.1-6.31 35.77-5.361 9.489-13.853 15.324-23.341 15.324-12.952 0-20.495-9.868-20.495-24.432 0-28.75 25.76-33.968 50.146-33.968zm34.015 82.216c-2.23 1.992-5.456 2.135-7.97.806-11.196-9.298-13.189-13.615-19.356-22.487-18.502 18.882-31.596 24.527-55.601 24.527-28.37 0-50.478-17.506-50.478-52.565 0-27.373 14.85-46.018 35.96-55.126 18.313-8.066 43.884-9.489 63.43-11.718v-4.365c0-8.018.616-17.506-4.08-24.432-4.128-6.215-12.003-8.777-18.93-8.777-12.856 0-24.337 6.594-27.136 20.257-.57 3.037-2.799 6.026-5.835 6.168l-32.735-3.51c-2.751-.618-5.787-2.847-5.028-7.07 7.543-39.66 43.36-51.616 75.43-51.616 16.415 0 37.858 4.365 50.81 16.795 16.415 15.323 14.849 35.77 14.849 58.02v52.565c0 15.798 6.547 22.724 12.714 31.264 2.182 3.036 2.657 6.69-.095 8.966-6.879 5.74-19.119 16.415-25.855 22.393l-.095-.095" fill="#000"/></g></svg></div>
+
+                    <select id="home">
+                        <option value="Home" selected>Home</option>
+                    </select>
+                </div>
+                <div class="search">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" viewbox="0 0 30 30" width="20px" height="20px">
+                        <path
+                            d="M 13 3 C 7.4889971 3 3 7.4889971 3 13 C 3 18.511003 7.4889971 23 13 23 C 15.396508 23 17.597385 22.148986 19.322266 20.736328 L 25.292969 26.707031 A 1.0001 1.0001 0 1 0 26.707031 25.292969 L 20.736328 19.322266 C 22.148986 17.597385 23 15.396508 23 13 C 23 7.4889971 18.511003 3 13 3 z M 13 5 C 17.430123 5 21 8.5698774 21 13 C 21 17.430123 17.430123 21 13 21 C 8.5698774 21 5 17.430123 5 13 C 5 8.5698774 8.5698774 5 13 5 z"
+                        />
+                    </svg>
+                    <input type="search" placeholder="Search for anything" />
+                </div>
+                <div class="account">
+                    <img src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/64/000000/external-shopping-bag-interface-kiranshastry-lineal-kiranshastry.png" width="25px" height="25px" alt="shopping-bag" />
+                    <img src="https://img.icons8.com/ios/50/000000/user-male-circle.png" width="25px" height="25px" alt="my-account" />
+                </div>
+
+            </div>
+            <div class="mid-container">
+                <div class="mid-container-content"><span id="your-amazon">Your amazon</span></div>
+                <div class="mid-container-content">Your friends</div>
+                <div class="mid-container-content">Today's deals</div>
+                <div class="mid-container-content">Gift cards</div>
+                <div class="mid-container-content">Sell</div>
+                <div class="mid-container-content">Help</div>
+            </div>
+            <div class="bottom-container">
+                <div id="bottom-container-content-big">Hello, Victoire Durant</div>
+                <div class="bottom-container-content">Prime</div>
+                <div class="bottom-container-content">Fresh</div>
+                <div class="bottom-container-content">Video</div>
+                <div class="bottom-container-content">Music</div>
+            </div>
+        </div>
+    </header>
+
+    <section class="welcome">
+        <img src="./remote_tools.JPG" alt="devices" width="450px" height="350px" />
+        <div class="start-shop">
+            <img src="./Amazon_fire_TV.JPG" alt="logo" />
+            <h2>Television reinvented</h2>
+            <button>Shop now</button>
+        </div>
+    </section>
+
+    <article class="seen">
+        <div class="items">
+            <img src="./watch.JPG" alt="watch" width="450px" height="400px" />
+            <div>
+                <h2>Items you've recently seen</h2>
+                <p id="history">Based on your history, we have gathered all the best offers for you</p>
+            </div>
+        </div>
+    </article>
+
+    <section class="navigation">
+        <div class="nav-text">
+            <div>Featured</div>
+            <div>Fashion</div>
+            <div>Children</div>
+            <div>Audio</div>
+        </div>
+    </section>
+    <article class="featured">
+        <div class="item shirt">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjCzPiCsd6EdXaN71ILftiyNlVBkw4TM59kA&usqp=CAU" alt="shirt">
+            <p class="name">Kids polo by <strong>Lacoste</strong></p>
+            <p class="price"><strong>£45.00</strong></p>
+        </div>
+        <div class="item shoes">
+            <img id="high-heels" src="./shoe.JPG" alt="shoe">
+            <p class="name">Staple 100 by <strong>BOSS</strong></p>
+            <p class="price"><strong>£285.00</strong></p>
+        </div>
+        <div class="item headphone">
+            <img src="data:image/jpeg;base64,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"
+                alt="headphone">
+            <p class="name">H8 Headphone by <strong>Beoplay</strong></p>
+            <p class="price"><strong>£399.00</strong></p>
+        </div>
+        <div class="item yatch">
+            <img src="data:image/jpeg;base64,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"
+                alt="yatch">
+            <p class="name">Yatch Master Rubber by
+                <strong>Rolex</strong>
+            </p>
+            <p class="price"><strong>£8,955.00</strong></p>
+        </div>
+
+    </article>
+    <article class="seen">
+        <div class="items">
+            <img src="./christmas.JPG" alt="watch" width="450px" height="400px" />
+            <div>
+                <h2>Are you ready for christmas?</h2>
+                <p id="selection">We have created a selection of items you will adore</p>
+            </div>
+        </div>
+    </article>
+
+    <section class="navigation">
+        <div class="nav-text">
+            <div>Featured</div>
+            <div>Fashion</div>
+            <div>Food</div>
+            <div>Decoration</div>
+        </div>
+    </section>
+    <article class="featured-bottom">
+        <div class="item boots">
+            <img src="./boots.jpg" alt="boots" />
+            <p class="name">Wellies boots by <strong>Hunter</strong></p>
+            <p class="price"><strong>£96.00</strong></p>
+        </div>
+        <div class="item ball">
+            <img src="./christmasball.jpg" alt="christmas-ball">
+            <p class="name">Christmas ball by <strong>Ultimate decoration</strong></p>
+            <p class="price"><strong>£20.00</strong></p>
+        </div>
+        <div class="item champagne">
+            <img src="./champagne.jpg" alt="champagne" />
+            <p class="name">Champagne Brut by <strong>Veuve Cliquot</strong></p>
+            <p class="price"><strong>£39.00</strong></p>
+        </div>
+        <div class="item merveilles">
+            <img src="./marveilles.jpg" alt="merveilles" />
+            <p class="name">Eau des merveilles by
+                <strong>Hermes</strong>
+            </p>
+            <p class="price"><strong>£79.00</strong></p>
+        </div>
+    </article>
+
+    <footer>
+        <div class="footer-container-main">
+            <div class="list first">
+                <p>Get to know us</p>
+                <ul>
+                    <li>Careers</li>
+                    <li>About us</li>
+                    <li>Slavery Statement</li>
+                </ul>
+            </div>
+            <div class="list second">
+                <p>Make money with us</p>
+                <ul>
+                    <li>Sell on Amazon</li>
+                    <li>Sell on Amazon Business</li>
+                    <li>Associates Programme</li>
+                    <li>Fulfilment by Amazon</li>
+                    <li>Advertise Your Products</li>
+                    <li>Independently Publish with Us</li>
+                    <li>Amazon Pay</li>
+                    <li>Become an Amazon Vender</li>
+                </ul>
+            </div>
+            <div class="list third">
+                <p>Amazon payments</p>
+                <ul>
+                    <li>Amazon Platinum Mastercard</li>
+                    <li>Amazon Money Store</li>
+                    <li>Gift cards</li>
+                    <li>Amazon Currency Conventer</li>
+                    <li>Payment Methods Help</li>
+                    <li>Shop with Points</li>
+                    <li>Top Up Your Account</li>
+                </ul>
+            </div>
+            <div class="list fourth">
+                <p>Let us help you</p>
+                <ul>
+                    <li>Track Packages or View Orders</li>
+                    <li>Delivery Rates & Policies</li>
+                    <li>Amazon Prime</li>
+                    <li>Returns & Replacements</li>
+                    <li>Manage your Content</li>
+                    <li>Amazon Mobile App</li>
+                    <li>Amazon Assistant</li>
+                </ul>
+            </div>
+            <div class="list fifth">
+                <p>Other brands</p>
+                <ul>
+                    <li>Amazon music</li>
+                    <li>Amazon tickets</li>
+                    <li>DPR reviews</li>
+                    <li>Kindle direct</li>
+                    <li>Souq.com</li>
+                    <li>Abebooks.com</li>
+                    <li>More...</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-border">
+            <div class="border"></div>
+        </div>
+        <div class="footer-container-end">
+            <svg xmlns="http://www.w3.org/2000/svg" height="80" width="120" version="1.0" viewbox="-150 -75.3385 1300 452.031"><path d="M620.38 235.668c-58.111 42.833-142.34 65.686-214.86 65.686-101.685 0-193.227-37.61-262.483-100.161-5.44-4.92-.565-11.623 5.964-7.792 74.74 43.486 167.153 69.647 262.613 69.647 64.38 0 135.202-13.32 200.322-40.961 9.837-4.179 18.064 6.442 8.444 13.581" fill="#f90" fill-rule="evenodd"/><path d="M644.54 208.027c-7.4-9.49-49.102-4.484-67.82-2.264-5.702.697-6.572-4.266-1.436-7.835 33.213-23.375 87.712-16.628 94.067-8.793 6.355 7.879-1.654 62.508-32.865 88.582-4.788 4.005-9.359 1.872-7.226-3.439 7.009-17.498 22.723-56.718 15.28-66.251" fill="#f90" fill-rule="evenodd"/><path d="M578.026 32.908V10.186c0-3.439 2.612-5.746 5.746-5.746H685.5c3.265 0 5.877 2.35 5.877 5.746v19.457c-.044 3.265-2.786 7.531-7.661 14.278l-52.714 75.262c19.588-.478 40.264 2.438 58.024 12.45 4.005 2.263 5.093 5.572 5.398 8.836v24.246c0 3.308-3.657 7.182-7.487 5.18-31.298-16.41-72.868-18.195-107.474.174-3.526 1.916-7.226-1.915-7.226-5.223v-23.027c0-3.7.043-10.012 3.743-15.627l61.072-87.581h-53.15c-3.264 0-5.876-2.307-5.876-5.703M206.939 174.683h-30.95c-2.96-.217-5.31-2.437-5.528-5.267V10.578c0-3.178 2.655-5.703 5.963-5.703h28.86c3.004.13 5.398 2.438 5.616 5.31V30.95h.566c7.53-20.067 21.677-29.425 40.743-29.425 19.37 0 31.472 9.358 40.178 29.425 7.487-20.067 24.507-29.425 42.746-29.425 12.971 0 27.162 5.354 35.824 17.368 9.794 13.363 7.792 32.777 7.792 49.797l-.044 100.248c0 3.178-2.655 5.746-5.963 5.746h-30.906c-3.09-.217-5.572-2.698-5.572-5.746V84.752c0-6.704.61-23.42-.87-29.774-2.307-10.665-9.228-13.669-18.196-13.669-7.487 0-15.322 5.006-18.5 13.016-3.177 8.01-2.872 21.416-2.872 30.427v84.185c0 3.178-2.656 5.746-5.964 5.746h-30.906c-3.134-.217-5.572-2.698-5.572-5.746l-.043-84.185c0-17.717 2.916-43.79-19.066-43.79-22.243 0-21.373 25.42-21.373 43.79v84.185c0 3.178-2.655 5.746-5.963 5.746M778.958 1.524c45.923 0 70.779 39.437 70.779 89.583 0 48.448-27.467 86.885-70.78 86.885-45.096 0-69.646-39.438-69.646-88.583 0-49.449 24.855-87.885 69.647-87.885m.261 32.429c-22.81 0-24.246 31.08-24.246 50.45 0 19.415-.304 60.854 23.985 60.854 23.985 0 25.116-33.43 25.116-53.802 0-13.407-.566-29.426-4.614-42.136-3.482-11.057-10.403-15.366-20.24-15.366m130.065 140.73h-30.819c-3.09-.217-5.572-2.698-5.572-5.746l-.043-158.882c.26-2.916 2.83-5.18 5.963-5.18H907.5c2.699.13 4.919 1.96 5.528 4.44v24.29h.566c8.663-21.721 20.807-32.081 42.18-32.081 13.886 0 27.424 5.005 36.13 18.717C1000 32.951 1000 54.325 1000 69.691v99.986c-.348 2.786-2.916 5.006-5.963 5.006H963c-2.83-.217-5.18-2.307-5.485-5.006V83.402c0-17.368 2.003-42.79-19.37-42.79-7.53 0-14.452 5.05-17.89 12.711-4.354 9.708-4.92 19.371-4.92 30.08v85.534c-.043 3.178-2.742 5.746-6.05 5.746M496.931 98.812c0 12.057.305 22.113-5.79 32.82-4.918 8.707-12.753 14.06-21.416 14.06-11.883 0-18.848-9.053-18.848-22.417 0-26.379 23.637-31.167 46.054-31.167v6.704m31.21 75.436c-2.045 1.828-5.005 1.959-7.312.74-10.273-8.532-12.145-12.493-17.76-20.633-16.977 17.325-29.034 22.505-51.017 22.505-26.074 0-46.315-16.063-46.315-48.23 0-25.117 13.581-42.224 32.995-50.582 16.803-7.4 40.265-8.706 58.2-10.752v-4.004c0-7.357.565-16.063-3.788-22.418-3.743-5.702-10.97-8.053-17.368-8.053-11.797 0-22.287 6.05-24.855 18.587-.523 2.786-2.569 5.528-5.398 5.659l-29.992-3.221c-2.524-.566-5.354-2.612-4.614-6.486C417.795 10.97 450.703 0 480.13 0c15.061 0 34.736 4.005 46.62 15.41 15.06 14.06 13.624 32.82 13.624 53.236v48.23c0 14.496 6.008 20.85 11.666 28.686 1.96 2.786 2.394 6.138-.13 8.227-6.312 5.267-17.543 15.061-23.724 20.546l-.043-.087M91.194 98.812c0 12.057.305 22.113-5.79 32.82-4.918 8.707-12.71 14.06-21.416 14.06-11.883 0-18.805-9.053-18.805-22.417 0-26.379 23.637-31.167 46.011-31.167v6.704m31.21 75.436c-2.045 1.828-5.005 1.959-7.312.74-10.273-8.532-12.102-12.493-17.76-20.633-16.977 17.325-28.99 22.505-51.017 22.505C20.285 176.86 0 160.797 0 128.63c0-25.117 13.625-42.224 32.995-50.582 16.803-7.4 40.265-8.706 58.199-10.752v-4.004c0-7.357.566-16.063-3.744-22.418-3.787-5.702-11.012-8.053-17.368-8.053-11.796 0-22.33 6.05-24.899 18.587-.522 2.786-2.568 5.528-5.354 5.659L9.794 53.846c-2.525-.566-5.31-2.612-4.614-6.486C12.101 10.97 44.966 0 74.392 0c15.06 0 34.736 4.005 46.62 15.41 15.06 14.06 13.624 32.82 13.624 53.236v48.23c0 14.496 6.007 20.85 11.666 28.686 2.003 2.786 2.438 6.138-.087 8.227-6.312 5.267-17.542 15.061-23.723 20.546l-.087-.087" fill-rule="evenodd"/></svg>
+            <div class="relative">1996-2017</div>
+            <div class="relative">Conditions of use & sale</div>
+            <div class="relative">Privacy notice</div>
+            <div class="relative">Cookies & internet advertising</div>
+
+            <select id="country-select">
+                <option value="united-kingdom" selected> United Kingdom </option>                
+            </select>
+        </div>
+    </footer>
+</body>
+
+</html>
